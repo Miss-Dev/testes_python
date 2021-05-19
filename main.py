@@ -2,14 +2,14 @@ from urllib.request import urlopen
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import re
-import datetime
-import random
+
 from pathlib import Path
 import requests
 
-pages = set()
-# data e hora atual
-random.seed(datetime.datetime.now())
+
+# pages = set()
+# para o caso de gerar números aleatórios
+# random.seed(datetime.datetime.now())
 
 
 # obter links internos do site
